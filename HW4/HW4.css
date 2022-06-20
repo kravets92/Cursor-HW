@@ -1,0 +1,191 @@
+/* перший блок */
+.box_1 {
+  width: auto;
+  height: 500px;
+  background: #ed4c5c;
+  font-family: "Lato", normal;
+  color: #ffffff;
+  display: flex;
+  position: relative;
+}
+
+.inside {
+  display: flex;
+  flex-direction: column;
+  margin: 122px 216px 112px 165px;
+}
+
+h1 {
+  width: 445px;
+  height: 107px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.text_1 {
+  width: 445px;
+  height: 64px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  margin-top: 24px;
+  margin-bottom: 44px;
+}
+
+.img_1 {
+  position: absolute;
+  left: 691px;
+  top: 116px;
+}
+
+.img_2 {
+  position: absolute;
+  left: 841px;
+  top: 116px;
+}
+
+.img_3 {
+  position: absolute;
+  left: 735px;
+  top: 94px;
+}
+
+/* Другий блок */
+main {
+  width: auto;
+  height: 500px;
+  position: relative;
+  display: block;
+  font-family: "Lato";
+  font-style: normal;
+  display: flex;
+}
+
+.contact {
+  margin-top: 117px;
+  margin-left: 176px;
+}
+h2 {
+  width: 445px;
+  height: 107px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.text_2 {
+  width: 434px;
+  height: 64px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  color: #000000;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 117px;
+  padding-bottom: 78px;
+  margin-left: 125px;
+}
+input,
+select {
+  border: 1px solid #333333;
+  border-radius: 6px;
+  background: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+  padding-left: 31px;
+}
+
+button {
+  width: 160px;
+  height: 50px;
+  background: #ed4c5c;
+  border: 1.5px solid #ed4c5c;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.name {
+  position: absolute;
+  top: 125px;
+  left: 1030px;
+}
+/* третій блок */
+footer {
+  width: auto;
+  height: 435px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  font-family: "Lato";
+  font-style: normal;
+  padding-left: 66px;
+  padding-top: 85px;
+  background: #fafafa;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  color: #101010;
+  margin-bottom: 33px;
+}
+
+.address {
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #101010;
+}
+
+.service,
+.get {
+  width: 254px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #101010;
+}
+
+a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #000000;
+  text-decoration: none;
+}
+
+span {
+  margin-bottom: 20px;
+}
+
+.copy {
+  position: absolute;
+  width: 155px;
+  left: 161px;
+  top: 335px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #101010;
+}
